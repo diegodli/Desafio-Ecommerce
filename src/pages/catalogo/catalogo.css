@@ -1,0 +1,13 @@
+#header{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.imglogo1{
+    height:10% ;
+    font-weight: 10%;
+
+}
+    

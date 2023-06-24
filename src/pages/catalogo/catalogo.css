@@ -1,13 +1,121 @@
-#header{
-    display: flex ;
+h1 {
+    font-family: 'Inter', sans-serif;
+  }
+  
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+}
+
+.storepage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.storepage h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.catalogo{
+    display: flex;
     align-items: center;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-.imglogo1{
-    height:10% ;
-    font-weight: 10%;
-
+.boxcel2{
+    width: 300px;
+    height: 60%;
+    padding: 15px 18px;
+    text-align: center;
+    margin:30px 170px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor:pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.2s ease;
 }
+
+.imgcelstore{
+    width: 90%;
+    height: 90%;
+}
+
+.boxcel2 button{
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    background-color: #3A255C;
     
+    color:#fff;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media screen and (max-width:1000px){
+    .boxcel2{
+        width: 160px;
+        height: 60%;
+        padding: 40px;
+        text-align: center;
+        margin:auto;
+        margin-top:30px;
+        border: 1px solid black;
+        border-radius: 20px;
+        cursor:pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+        transition: 0.2s ease;
+    }
+}
+
+
+/*======================== SLIDER====================*/
+
+
+#slider{
+    display: flex ;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient( #9CB5BA, #D2ACCF, #E9BAE8);
+}
+
+#slider img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.textslider{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 100px;
+    height: 400px;
+    width: 550px;
+    margin-top:75px;
+    
+}
+
+.textslider h1{
+    padding-bottom: 10px;
+    font-size: 45px;
+   
+}
+
+.textslider h4{
+    margin-top: 0;
+    font-size: 20px;
+}

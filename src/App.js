@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Homepage from './pages/home/Homepage'
-import Sliderhome from "./pages/home/Sliderhome"
-import Servicehome from './pages/home/Servicehome';
-import Lancahome from './pages/home/Lancahome';
-import Sobrehome from './pages/home/Sobrehome';
+import Home from "./pages/home/Home";
+import Rotas from "./Routers/Rotas";
+import React from "react";
+
 
 function App() {
-  return (
-    <div className="App">
-      <Homepage/>
-      <Sliderhome/>
-      <Servicehome/>
-      <Lancahome/>
-      <Sobrehome/>
-     
-    </div>
+  return(
+   <div>
+    
+    <Rotas/>
+
+   </div>
+
   );
 }
+
 
 export default App;
